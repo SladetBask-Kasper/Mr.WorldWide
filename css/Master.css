@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: #2b7a3a;*/
+  background-color: #d0f7d7;
+  border-radius: 15px;
+}
+.flex-container > div {
+  /*background-color: #368a46;*/
+  background-color: #d0f7d7;
+  width: 100px;
+  margin: 10px;
+}
+.flex-container > .leftcont {
+  text-align: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  flex-grow: 1;
+}
+.flex-container > .rightcont {
+  text-align: right;
+  padding-left: 5%;
+  padding-right: 5%;
+  flex-grow: 1;
+}
+.flex-container > .bigcont {
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-grow: 4;
+  /*line-height: 75px;*/
+  font-size: 30px;
+}
+/*h1, h2, h3, h4, h5 {*/
+h1 {
+  text-align: center;
+}
