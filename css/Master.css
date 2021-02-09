@@ -68,3 +68,6 @@ a.menu-entry:active {
   text-decoration: underline;
   color: black;
 }
+#firstcont {
+  padding-top: 10%;
+}
