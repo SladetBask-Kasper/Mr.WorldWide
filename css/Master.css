@@ -73,3 +73,43 @@ a.menu-entry:active {
 #firstcont {
   padding-top: 10%;
 }
+@media only screen and (max-width: 1200px) {
+  .flex-container {
+    flex-flow: row wrap;
+    width: unset;
+    height: 500px;
+  }
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+  }
+  .flex-container > .bigcont {
+    padding-left: 5%;
+    padding-right: 2%;
+    font-size: 18px;
+  }
+  .flex-container > .smallcont {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 1.8em;
+  }
+  p {
+    line-height: 32px;   /* within paragraph */
+    margin-bottom: 30px; /* between paragraphs */
+    margin-top: 30px; /* between paragraphs */
+  }
+}
