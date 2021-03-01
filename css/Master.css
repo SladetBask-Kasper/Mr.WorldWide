@@ -73,6 +73,10 @@ a.menu-entry:active {
 #firstcont {
   padding-top: 10%;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 @media only screen and (max-width: 1200px) {
   .flex-container {
     flex-flow: row wrap;
@@ -80,7 +84,7 @@ a.menu-entry:active {
   body {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
   }
   .flex-container > .bigcont {
     padding-left: 5%;
