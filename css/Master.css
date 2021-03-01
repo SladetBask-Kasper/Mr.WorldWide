@@ -76,8 +76,6 @@ a.menu-entry:active {
 @media only screen and (max-width: 1200px) {
   .flex-container {
     flex-flow: row wrap;
-    width: unset;
-    height: 500px;
   }
   body {
     padding-left: 20px;
